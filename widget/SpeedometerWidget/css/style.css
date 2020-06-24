@@ -1,0 +1,48 @@
+* {
+        font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+#content-title {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 360px;
+    height: 90px;
+    font-size: 6em;
+}
+
+#content {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 360px;
+    height: 90px;
+}
+
+#content-default {
+    font-size: 2em;
+}
+
+#content-speed {
+    font-size: 4em;
+}
+
+#content-speed-unit {
+    font-size: 2em;
+}
+
+#launch-button {
+    font-size: 2em;
+    text-decoration: underline;
+}

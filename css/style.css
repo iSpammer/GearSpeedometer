@@ -1,0 +1,40 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color: #222;
+    text-align: center;
+}
+
+#content-speed {
+    margin: auto;
+    font-size: 2.5em;
+    color: white;
+    width: 50%;
+    background-color: #000000;
+}
+
+#content-speed-unit {
+    font-size: 1.5em;
+}
+
+#content-settings {
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+p {
+    margin: 0px auto;
+}
+
+input[type=range] {
+    margin: auto;
+    width: 60%;
+}
+
+.content-interval-value {
+    font-size: 0.5em;
+    font-weight: bold;
+}

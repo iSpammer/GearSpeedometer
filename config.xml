@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/Speedometer" version="0.0.10" height="360" width="360" viewmodes="fullscreen">
+    <tizen:app-widget id="3J7HJfrknO.Speedometer.Widget" primary="true">
+        <tizen:widget-label>Speedometer Widget</tizen:widget-label>
+        <tizen:widget-content src="widget/SpeedometerWidget/index.html">
+            <tizen:widget-size preview="widget/SpeedometerWidget/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="3J7HJfrknO.Speedometer" package="3J7HJfrknO" required_version="2.3.2"/>
+    <author href="pricemods.blogspot.com" email="ispamossama@gmail.com">Ossama Akram</author>
+    <content src="index.html"/>
+    <description>Speedometer App for Tizen Wearbles</description>
+    <feature name="http://tizen.org/feature/screen.shape.circle"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.320.320"/>
+    <feature name="http://tizen.org/feature/location.batch"/>
+    <icon src="icon.png"/>
+    <name>Speedometer</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.info"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/location"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="enable" encryption="disable" hwkey-event="enable"/>
+</widget>
